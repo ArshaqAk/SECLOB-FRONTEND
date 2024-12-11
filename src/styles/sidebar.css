@@ -1,0 +1,23 @@
+.sidebar{
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; */
+    min-height: 100vh;
+    padding-inline: 0.8rem;
+    
+}
+.menu-div{
+    display: flex;
+    align-items: center ;
+    background-color:#f20000;
+    border-radius: 5px;
+    padding-inline: 10px;
+    margin-top: 1rem;
+    color: #fff;
+
+}
+.menu-div img{
+    width: 1.3rem;
+}
+.menu-div h6{
+    margin-top: 10px;
+    margin-left: 10px;
+}

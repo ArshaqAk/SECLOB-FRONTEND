@@ -1,0 +1,70 @@
+.dashboard-cotainer{
+  background: rgb(99,42,0);
+  background: linear-gradient(90deg, rgba(99,42,0,1) 6%, rgba(91,39,0,1) 27%, rgba(82,35,0,1) 38%, rgba(83,36,1,1) 90%);
+}
+.custom-col {
+  flex: 0 0 20.83%; /* 2.5 out of 12 is approximately 20.83% */
+  max-width: 20.83%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  backdrop-filter: blur(5px); 
+  background-color: rgba(98, 43, 4, 0.3);
+}
+  .icons{
+    display: flex;
+    justify-content: center;
+  }
+  .icons i{
+    cursor: pointer;
+  }
+  
+  .badge-icon{
+   margin-left: -11px;
+  }
+
+  .spinner-container{
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .chart-container{
+    /* border: 1px solid #af5603; */
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    margin-top: 12px;
+  }
+  .stat-div{
+    /* border: 1px solid #f20000a1; */
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;        margin: 1px;
+    color: #fff;
+    padding: 0.5rem;
+    border: 1px solid rgba(203, 68, 0, 0.707);
+    border-radius: 10px;
+  }
+  .stat-div option{
+    color: black !important;;
+  }
+  .select{
+    background-color:  rgba(98, 43, 4, 0.926) !important;
+    border: none !important;
+    color: #fff;
+    width: 100%;
+  }
+  .select option{
+    color: #fff !important;
+  }
+
+
+
+  @media screen and (max-width: 980px) {
+    .custom-col{
+      display: none;
+    }
+    .icons{
+      display: none;
+    }
+    .statics{
+      margin-top: 1rem;
+    }
+  }

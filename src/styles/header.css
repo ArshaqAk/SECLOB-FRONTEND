@@ -1,0 +1,7 @@
+.paint-effect {
+    font-size: 2.3rem;
+    font-weight: bold;
+    background: linear-gradient(140deg,#f20000 , #f07d03e2,#ff0303f5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
